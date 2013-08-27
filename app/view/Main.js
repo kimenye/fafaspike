@@ -1,16 +1,25 @@
 Ext.define('FafaSpike.view.Main', {
-    extend: 'Ext.Container',
+    extend: 'Ext.Carousel',
     xtype: 'main',
     config: {
         fullScreen: true,
-		items : {
-            docked : 'top',
-            xtype  : 'toolbar',
-            title  : 'Fafa Model Search Spike'
-        }        
-    },
-	
-	setTitle : function(title) {
-        this.down('toolbar').setTitle(title);
-	}
+		items : [
+			{
+				src: 'images/models/1.jpg',
+				xtype: 'image'
+			},
+			{
+				src: 'images/models/2.jpg',
+				xtype: 'image'
+			},
+			{
+				src: 'images/models/3.jpg',
+				xtype: 'image'
+			},
+			{
+				src: 'images/models/4.jpg',
+				xtype: 'image'
+			}
+		] 
+    }
 });
