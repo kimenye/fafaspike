@@ -25,6 +25,10 @@ Ext.application({
 	models: [
 		'Tip'
 	],
+	
+	stores: [
+		'Tips'
+	],
 
     requires: [
         'Ext.MessageBox'

@@ -1,4 +1,4 @@
-Ext.define('App.store.Contacts', {
+Ext.define('FafaSpike.store.Contacts', {
 	extend   : 'Ext.data.Store',
 	alias    : 'store.contacts',
 	requires : ['FafaSpike.model.Contact'],
