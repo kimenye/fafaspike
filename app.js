@@ -21,6 +21,10 @@ Ext.Loader.setPath({
 
 Ext.application({
     name: 'FafaSpike',
+	
+	models: [
+		'Tip'
+	],
 
     requires: [
         'Ext.MessageBox'
